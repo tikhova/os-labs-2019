@@ -7,16 +7,16 @@ echo "(4) exit"
 echo "Please insert option"
 read option
 case $option in
-1)
-nano
-;;
-2)
-vi
-;;
-3)
-firefox
-;;
-4)
-exit
-;;
+    1)
+        nano
+        ;;
+    2)
+        vi
+        ;;
+    3)
+        firefox
+        ;;
+    4)
+        exit
+        ;;
 esac
