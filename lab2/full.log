@@ -1,0 +1,287 @@
+[    25.338] Warning:  The directory "/usr/share/fonts/OTF" does not exist.
+[    25.338] Warning:  The directory "/usr/share/fonts/Type1" does not exist.
+[    25.338] Warning:  `fonts.dir' not found (or not valid) in "/usr/share/fonts/100dpi".
+[    25.338] Warning:  `fonts.dir' not found (or not valid) in "/usr/share/fonts/75dpi".
+[    25.350] Warning:  Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    26.299] Warning:  Warning, couldn't open module fbdev
+[    26.299] Warning:  Warning, couldn't open module vesa
+[    26.335] Warning:  Falling back to old probe method for modesetting
+[    25.338]  Information:  The server relies on udev to provide the list of input devices.
+[    25.338]  Information:  Module ABI versions:
+[    25.339]  Information:  systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    25.341]  Information:  xfree86: Adding drm device (/dev/dri/card0)
+[    25.346]  Information:  xfree86: Adding drm device (/dev/dri/card1)
+[    25.350]  Information:  LoadModule: "glx"
+[    25.468]  Information:  Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    26.142]  Information:  Module glx: vendor="X.Org Foundation"
+[    26.142]  Information:  Applying OutputClass "AMDgpu" to /dev/dri/card0
+[    26.142]  Information:  Applying OutputClass "AMDgpu" to /dev/dri/card1
+[    26.142]  Information:  LoadModule: "amdgpu"
+[    26.152]  Information:  Loading /usr/lib/xorg/modules/drivers/amdgpu_drv.so
+[    26.197]  Information:  Module amdgpu: vendor="X.Org Foundation"
+[    26.197]  Information:  LoadModule: "ati"
+[    26.222]  Information:  Loading /usr/lib/xorg/modules/drivers/ati_drv.so
+[    26.249]  Information:  Module ati: vendor="X.Org Foundation"
+[    26.279]  Information:  LoadModule: "modesetting"
+[    26.279]  Information:  Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    26.287]  Information:  Module modesetting: vendor="X.Org Foundation"
+[    26.288]  Information:  LoadModule: "fbdev"
+[    26.299]  Information:  LoadModule: "vesa"
+[    26.299]  Information:  AMDGPU: Driver for AMD Radeon:
+[    26.299]  Information:  modesetting: Driver for Modesetting Kernel Drivers: kms
+[    26.299]  Information:  AMDGPU(0): [KMS] Kernel modesetting enabled.
+[    26.335]  Information:  AMDGPU(G0): [KMS] Kernel modesetting enabled.
+[    26.336]  Information:  AMDGPU(0): Creating default Display subsection in Screen section
+[    26.336]  Information:  AMDGPU(0): Pixel depth = 24 bits stored in 4 bytes (32 bpp pixmaps)
+[    26.336]  Information:  AMDGPU(0): Using 8 bits per RGB (8 bit DAC)
+[    26.336]  Information:  Loading sub module "fb"
+[    26.336]  Information:  LoadModule: "fb"
+[    26.336]  Information:  Loading /usr/lib/xorg/modules/libfb.so
+[    26.341]  Information:  Module fb: vendor="X.Org Foundation"
+[    26.341]  Information:  Loading sub module "dri2"
+[    26.341]  Information:  LoadModule: "dri2"
+[    26.341]  Information:  Module "dri2" already built-in
+[    28.984]  Information:  Loading sub module "glamoregl"
+[    28.984]  Information:  LoadModule: "glamoregl"
+[    28.984]  Information:  Loading /usr/lib/xorg/modules/libglamoregl.so
+[    29.037]  Information:  Module glamoregl: vendor="X.Org Foundation"
+[    29.273]  Information:  AMDGPU(0): glamor X acceleration enabled on AMD CARRIZO (DRM 3.27.0, 4.19.24-1-MANJARO, LLVM 7.0.1)
+[    29.273]  Information:  AMDGPU(0): glamor detected, initialising EGL layer.
+[    29.273]  Information:  AMDGPU(0): KMS Pageflipping: enabled
+[    29.274]  Information:  AMDGPU(0): Output eDP has no monitor section
+[    29.275]  Information:  AMDGPU(0): Output HDMI-A-0 has no monitor section
+[    29.275]  Information:  AMDGPU(0): Output HDMI-A-1 has no monitor section
+[    29.295]  Information:  AMDGPU(0): EDID for output eDP
+[    29.295]  Information:  AMDGPU(0): Manufacturer: BOE  Model: 6a9  Serial#: 0
+[    29.295]  Information:  AMDGPU(0): Year: 2015  Week: 1
+[    29.295]  Information:  AMDGPU(0): EDID Version: 1.4
+[    29.295]  Information:  AMDGPU(0): Digital Display Input
+[    29.295]  Information:  AMDGPU(0): 6 bits per channel
+[    29.295]  Information:  AMDGPU(0): Digital interface is DisplayPort
+[    29.295]  Information:  AMDGPU(0): Max Image Size [cm]: horiz.: 34  vert.: 19
+[    29.295]  Information:  AMDGPU(0): Gamma: 2.20
+[    29.295]  Information:  AMDGPU(0): No DPMS capabilities specified
+[    29.295]  Information:  AMDGPU(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[    29.296]  Information:  AMDGPU(0): First detailed timing is preferred mode
+[    29.296]  Information:  AMDGPU(0): Preferred mode is native pixel format and refresh rate
+[    29.296]  Information:  AMDGPU(0): redX: 0.590 redY: 0.350   greenX: 0.329 greenY: 0.555
+[    29.296]  Information:  AMDGPU(0): blueX: 0.152 blueY: 0.118   whiteX: 0.312 whiteY: 0.328
+[    29.296]  Information:  AMDGPU(0): Manufacturer's mask: 0
+[    29.296]  Information:  AMDGPU(0): Supported detailed timing:
+[    29.296]  Information:  AMDGPU(0): clock: 152.6 MHz   Image Size:  344 x 193 mm
+[    29.296]  Information:  AMDGPU(0): h_active: 1920  h_sync: 1968  h_sync_end 2000 h_blank_end 2192 h_border: 0
+[    29.296]  Information:  AMDGPU(0): v_active: 1080  v_sync: 1083  v_sync_end 1089 v_blanking: 1160 v_border: 0
+[    29.296]  Information:  AMDGPU(0): Supported detailed timing:
+[    29.296]  Information:  AMDGPU(0): clock: 113.1 MHz   Image Size:  344 x 193 mm
+[    29.296]  Information:  AMDGPU(0): h_active: 1920  h_sync: 2020  h_sync_end 2120 h_blank_end 2142 h_border: 0
+[    29.296]  Information:  AMDGPU(0): v_active: 1080  v_sync: 1100  v_sync_end 1120 v_blanking: 1100 v_border: 0
+[    29.296]  Information:  AMDGPU(0):  4561N€NT15N41
+[    29.296]  Information:  AMDGPU(0): Unknown vendor-specific block 0
+[    29.296]  Information:  AMDGPU(0): EDID (in hex):
+[    29.296]  Information:  AMDGPU(0): 	00ffffffffffff0009e5a90600000000
+[    29.296]  Information:  AMDGPU(0): 	01190104952213780a24109759548e27
+[    29.296]  Information:  AMDGPU(0): 	1e505400000001010101010101010101
+[    29.296]  Information:  AMDGPU(0): 	0101010101019c3b8010713850403020
+[    29.296]  Information:  AMDGPU(0): 	360058c11000001a2e2c80de70381440
+[    29.296]  Information:  AMDGPU(0): 	6464440558c11000001a000000fe0034
+[    29.296]  Information:  AMDGPU(0): 	3536314e804e5431354e343100000000
+[    29.296]  Information:  AMDGPU(0): 	0000412196001000000a010a202000da
+[    29.296]  Information:  AMDGPU(0): Printing probed modes for output eDP
+[    29.296]  Information:  AMDGPU(0): Modeline "1920x1080"x60.0  152.60  1920 1968 2000 2192  1080 1083 1089 1160 +hsync -vsync (69.6 kHz eP)
+[    29.296]  Information:  AMDGPU(0): Modeline "1920x1080"x47.1  113.10  1920 2020 2120 2142  1080 1100 1120 1121 +hsync -vsync (52.8 kHz e)
+[    29.296]  Information:  AMDGPU(0): Modeline "1680x1050"x60.0  152.60  1680 1968 2000 2192  1050 1083 1089 1160 +hsync -vsync (69.6 kHz e)
+[    29.296]  Information:  AMDGPU(0): Modeline "1280x1024"x60.0  152.60  1280 1968 2000 2192  1024 1083 1089 1160 +hsync -vsync (69.6 kHz e)
+[    29.296]  Information:  AMDGPU(0): Modeline "1440x900"x60.0  152.60  1440 1968 2000 2192  900 1083 1089 1160 +hsync -vsync (69.6 kHz e)
+[    29.296]  Information:  AMDGPU(0): Modeline "1280x800"x60.0  152.60  1280 1968 2000 2192  800 1083 1089 1160 +hsync -vsync (69.6 kHz e)
+[    29.296]  Information:  AMDGPU(0): Modeline "1280x720"x60.0  152.60  1280 1968 2000 2192  720 1083 1089 1160 +hsync -vsync (69.6 kHz e)
+[    29.296]  Information:  AMDGPU(0): Modeline "1024x768"x60.0  152.60  1024 1968 2000 2192  768 1083 1089 1160 +hsync -vsync (69.6 kHz e)
+[    29.296]  Information:  AMDGPU(0): Modeline "800x600"x60.0  152.60  800 1968 2000 2192  600 1083 1089 1160 +hsync -vsync (69.6 kHz e)
+[    29.296]  Information:  AMDGPU(0): Modeline "640x480"x60.0  152.60  640 1968 2000 2192  480 1083 1089 1160 +hsync -vsync (69.6 kHz e)
+[    29.296]  Information:  AMDGPU(0): EDID for output HDMI-A-0
+[    29.296]  Information:  AMDGPU(0): EDID for output HDMI-A-1
+[    29.296]  Information:  AMDGPU(0): Output eDP connected
+[    29.296]  Information:  AMDGPU(0): Output HDMI-A-0 disconnected
+[    29.296]  Information:  AMDGPU(0): Output HDMI-A-1 disconnected
+[    29.296]  Information:  AMDGPU(0): Using exact sizes for initial modes
+[    29.296]  Information:  AMDGPU(0): Output eDP using initial mode 1920x1080 +0+0
+[    29.296]  Information:  AMDGPU(0): mem size init: gart size :befb2000 vram size: s:1f23b000 visible:1f23b000
+[    29.296]  Information:  Loading sub module "ramdac"
+[    29.296]  Information:  LoadModule: "ramdac"
+[    29.296]  Information:  Module "ramdac" already built-in
+[    29.296]  Information:  AMDGPU(G0): Pixel depth = 24 bits stored in 4 bytes (32 bpp pixmaps)
+[    29.296]  Information:  AMDGPU(G0): Using 8 bits per RGB (8 bit DAC)
+[    29.296]  Information:  Loading sub module "fb"
+[    29.296]  Information:  LoadModule: "fb"
+[    29.296]  Information:  Loading /usr/lib/xorg/modules/libfb.so
+[    29.296]  Information:  Module fb: vendor="X.Org Foundation"
+[    29.296]  Information:  Loading sub module "dri2"
+[    29.296]  Information:  LoadModule: "dri2"
+[    29.296]  Information:  Module "dri2" already built-in
+[    29.326]  Information:  Loading sub module "glamoregl"
+[    29.326]  Information:  LoadModule: "glamoregl"
+[    29.326]  Information:  Loading /usr/lib/xorg/modules/libglamoregl.so
+[    29.326]  Information:  Module glamoregl: vendor="X.Org Foundation"
+[    29.338]  Information:  AMDGPU(G0): glamor X acceleration enabled on AMD ICELAND (DRM 3.27.0, 4.19.24-1-MANJARO, LLVM 7.0.1)
+[    29.338]  Information:  AMDGPU(G0): glamor detected, initialising EGL layer.
+[    29.338]  Information:  AMDGPU(G0): mem size init: gart size :ffd75000 vram size: s:ffeb4000 visible:feb4000
+[    29.338]  Information:  Loading sub module "ramdac"
+[    29.338]  Information:  LoadModule: "ramdac"
+[    29.338]  Information:  Module "ramdac" already built-in
+[    29.338]  Information:  UnloadModule: "modesetting"
+[    29.338]  Information:  Unloading modesetting
+[    29.339]  Information:  AMDGPU(G0): [DRI2] Setup complete
+[    29.339]  Information:  AMDGPU(G0): [DRI2]   DRI driver: radeonsi
+[    29.339]  Information:  AMDGPU(G0): [DRI2]   VDPAU driver: radeonsi
+[    29.339]  Information:  AMDGPU(G0): Front buffer pitch: 4096 bytes
+[    29.381]  Information:  AMDGPU(G0): Direct rendering enabled
+[    29.779]  Information:  AMDGPU(G0): Use GLAMOR acceleration.
+[    29.779]  Information:  AMDGPU(G0): Acceleration enabled
+[    29.781]  Information:  AMDGPU(0): [DRI2] Setup complete
+[    29.782]  Information:  AMDGPU(0): [DRI2]   DRI driver: radeonsi
+[    29.782]  Information:  AMDGPU(0): [DRI2]   VDPAU driver: radeonsi
+[    29.782]  Information:  AMDGPU(0): Front buffer pitch: 7680 bytes
+[    29.782]  Information:  AMDGPU(0): SYNC extension fences enabled
+[    29.782]  Information:  AMDGPU(0): Present extension enabled
+[    29.782]  Information:  AMDGPU(0): Direct rendering enabled
+[    30.008]  Information:  AMDGPU(0): Use GLAMOR acceleration.
+[    30.008]  Information:  AMDGPU(0): Acceleration enabled
+[    30.008]  Information:  AMDGPU(0): Set up textured video (glamor)
+[    30.030]  Information:  Initializing extension Generic Event Extension
+[    30.030]  Information:  Initializing extension SHAPE
+[    30.030]  Information:  Initializing extension MIT-SHM
+[    30.030]  Information:  Initializing extension XInputExtension
+[    30.031]  Information:  Initializing extension XTEST
+[    30.031]  Information:  Initializing extension BIG-REQUESTS
+[    30.031]  Information:  Initializing extension SYNC
+[    30.031]  Information:  Initializing extension XKEYBOARD
+[    30.032]  Information:  Initializing extension XC-MISC
+[    30.032]  Information:  Initializing extension SECURITY
+[    30.032]  Information:  Initializing extension XFIXES
+[    30.032]  Information:  Initializing extension RENDER
+[    30.032]  Information:  Initializing extension RANDR
+[    30.033]  Information:  Initializing extension COMPOSITE
+[    30.033]  Information:  Initializing extension DAMAGE
+[    30.033]  Information:  Initializing extension MIT-SCREEN-SAVER
+[    30.033]  Information:  Initializing extension DOUBLE-BUFFER
+[    30.034]  Information:  Initializing extension RECORD
+[    30.034]  Information:  Initializing extension DPMS
+[    30.034]  Information:  Initializing extension Present
+[    30.034]  Information:  Initializing extension DRI3
+[    30.035]  Information:  Initializing extension X-Resource
+[    30.035]  Information:  Initializing extension XVideo
+[    30.035]  Information:  Initializing extension XVideo-MotionCompensation
+[    30.035]  Information:  Initializing extension GLX
+[    30.047]  Information:  AIGLX: Loaded and initialized radeonsi
+[    30.047]  Information:  GLX: Initialized DRI2 GL provider for screen 0
+[    30.047]  Information:  Initializing extension XFree86-VidModeExtension
+[    30.048]  Information:  Initializing extension XFree86-DGA
+[    30.048]  Information:  Initializing extension XFree86-DRI
+[    30.048]  Information:  Initializing extension DRI2
+[    30.070]  Information:  AMDGPU(0): Setting screen physical size to 508 x 285
+[    31.149]  Information:  config/udev: Adding input device Power Button (/dev/input/event3)
+[    31.149]  Information:  LoadModule: "libinput"
+[    31.149]  Information:  Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    31.193]  Information:  Module libinput: vendor="X.Org Foundation"
+[    31.193]  Information:  Using input driver 'libinput' for 'Power Button'
+[    31.303]  Information:  event3  - Power Button: is tagged by udev as: Keyboard
+[    31.303]  Information:  event3  - Power Button: device is a keyboard
+[    31.303]  Information:  event3  - Power Button: device removed
+[    31.344]  Information:  XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    31.346]  Information:  event3  - Power Button: is tagged by udev as: Keyboard
+[    31.346]  Information:  event3  - Power Button: device is a keyboard
+[    31.347]  Information:  config/udev: Adding input device Video Bus (/dev/input/event4)
+[    31.347]  Information:  Using input driver 'libinput' for 'Video Bus'
+[    31.348]  Information:  event4  - Video Bus: is tagged by udev as: Keyboard
+[    31.348]  Information:  event4  - Video Bus: device is a keyboard
+[    31.348]  Information:  event4  - Video Bus: device removed
+[    31.410]  Information:  XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    31.412]  Information:  event4  - Video Bus: is tagged by udev as: Keyboard
+[    31.413]  Information:  event4  - Video Bus: device is a keyboard
+[    31.414]  Information:  config/udev: Adding input device Video Bus (/dev/input/event5)
+[    31.414]  Information:  Using input driver 'libinput' for 'Video Bus'
+[    31.416]  Information:  event5  - Video Bus: is tagged by udev as: Keyboard
+[    31.416]  Information:  event5  - Video Bus: device is a keyboard
+[    31.416]  Information:  event5  - Video Bus: device removed
+[    31.477]  Information:  XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    31.479]  Information:  event5  - Video Bus: is tagged by udev as: Keyboard
+[    31.480]  Information:  event5  - Video Bus: device is a keyboard
+[    31.481]  Information:  config/udev: Adding input device Power Button (/dev/input/event0)
+[    31.481]  Information:  Using input driver 'libinput' for 'Power Button'
+[    31.482]  Information:  event0  - Power Button: is tagged by udev as: Keyboard
+[    31.482]  Information:  event0  - Power Button: device is a keyboard
+[    31.482]  Information:  event0  - Power Button: device removed
+[    31.511]  Information:  XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 9)
+[    31.513]  Information:  event0  - Power Button: is tagged by udev as: Keyboard
+[    31.513]  Information:  event0  - Power Button: device is a keyboard
+[    31.513]  Information:  config/udev: Adding input device Lid Switch (/dev/input/event2)
+[    31.513]  Information:  No input driver specified, ignoring this device.
+[    31.513]  Information:  This device may have been added with another device file.
+[    31.513]  Information:  config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    31.514]  Information:  Using input driver 'libinput' for 'Sleep Button'
+[    31.514]  Information:  event1  - Sleep Button: is tagged by udev as: Keyboard
+[    31.514]  Information:  event1  - Sleep Button: device is a keyboard
+[    31.514]  Information:  event1  - Sleep Button: device removed
+[    31.557]  Information:  XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 10)
+[    31.559]  Information:  event1  - Sleep Button: is tagged by udev as: Keyboard
+[    31.559]  Information:  event1  - Sleep Button: device is a keyboard
+[    31.560]  Information:  config/udev: Adding input device HDA ATI HDMI HDMI/DP,pcm=3 (/dev/input/event11)
+[    31.561]  Information:  No input driver specified, ignoring this device.
+[    31.561]  Information:  This device may have been added with another device file.
+[    31.562]  Information:  config/udev: Adding input device HDA Digital PCBeep (/dev/input/event12)
+[    31.562]  Information:  No input driver specified, ignoring this device.
+[    31.562]  Information:  This device may have been added with another device file.
+[    31.562]  Information:  config/udev: Adding input device HD-Audio Generic Headphone Mic (/dev/input/event13)
+[    31.562]  Information:  No input driver specified, ignoring this device.
+[    31.562]  Information:  This device may have been added with another device file.
+[    31.564]  Information:  config/udev: Adding input device Integrated_Webcam_HD: Integrate (/dev/input/event14)
+[    31.564]  Information:  Using input driver 'libinput' for 'Integrated_Webcam_HD: Integrate'
+[    31.567]  Information:  event14 - Integrated_Webcam_HD: Integrate: is tagged by udev as: Keyboard
+[    31.567]  Information:  event14 - Integrated_Webcam_HD: Integrate: device is a keyboard
+[    31.567]  Information:  event14 - Integrated_Webcam_HD: Integrate: device removed
+[    31.624]  Information:  XINPUT: Adding extended input device "Integrated_Webcam_HD: Integrate" (type: KEYBOARD, id 11)
+[    31.627]  Information:  event14 - Integrated_Webcam_HD: Integrate: is tagged by udev as: Keyboard
+[    31.627]  Information:  event14 - Integrated_Webcam_HD: Integrate: device is a keyboard
+[    31.629]  Information:  config/udev: Adding input device DELL0769:00 06CB:7E92 Touchpad (/dev/input/event9)
+[    31.629]  Information:  Using input driver 'libinput' for 'DELL0769:00 06CB:7E92 Touchpad'
+[    31.633]  Information:  event9  - DELL0769:00 06CB:7E92 Touchpad: is tagged by udev as: Touchpad
+[    31.651]  Information:  event9  - DELL0769:00 06CB:7E92 Touchpad: device is a touchpad
+[    31.651]  Information:  event9  - DELL0769:00 06CB:7E92 Touchpad: device removed
+[    31.704]  Information:  XINPUT: Adding extended input device "DELL0769:00 06CB:7E92 Touchpad" (type: TOUCHPAD, id 12)
+[    31.710]  Information:  event9  - DELL0769:00 06CB:7E92 Touchpad: is tagged by udev as: Touchpad
+[    31.713]  Information:  event9  - DELL0769:00 06CB:7E92 Touchpad: device is a touchpad
+[    31.715]  Information:  config/udev: Adding input device DELL0769:00 06CB:7E92 Touchpad (/dev/input/mouse0)
+[    31.715]  Information:  No input driver specified, ignoring this device.
+[    31.715]  Information:  This device may have been added with another device file.
+[    31.716]  Information:  config/udev: Adding input device Dell WMI hotkeys (/dev/input/event10)
+[    31.716]  Information:  Using input driver 'libinput' for 'Dell WMI hotkeys'
+[    31.719]  Information:  event10 - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[    31.719]  Information:  event10 - Dell WMI hotkeys: device is a keyboard
+[    31.719]  Information:  event10 - Dell WMI hotkeys: device removed
+[    31.769]  Information:  XINPUT: Adding extended input device "Dell WMI hotkeys" (type: KEYBOARD, id 13)
+[    31.772]  Information:  event10 - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[    31.772]  Information:  event10 - Dell WMI hotkeys: device is a keyboard
+[    31.773]  Information:  config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event6)
+[    31.773]  Information:  Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    31.775]  Information:  event6  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    31.775]  Information:  event6  - AT Translated Set 2 keyboard: device is a keyboard
+[    31.777]  Information:  event6  - AT Translated Set 2 keyboard: device removed
+[    31.807]  Information:  XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 14)
+[    31.810]  Information:  event6  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    31.810]  Information:  event6  - AT Translated Set 2 keyboard: device is a keyboard
+[    31.813]  Information:  config/udev: Adding input device PC Speaker (/dev/input/event7)
+[    31.813]  Information:  No input driver specified, ignoring this device.
+[    31.813]  Information:  This device may have been added with another device file.
+[    31.814]  Information:  config/udev: Adding input device DELL Wireless hotkeys (/dev/input/event8)
+[    31.814]  Information:  Using input driver 'libinput' for 'DELL Wireless hotkeys'
+[    31.815]  Information:  event8  - DELL Wireless hotkeys: is tagged by udev as: Keyboard
+[    31.815]  Information:  event8  - DELL Wireless hotkeys: device is a keyboard
+[    31.816]  Information:  event8  - DELL Wireless hotkeys: device removed
+[    31.864]  Information:  XINPUT: Adding extended input device "DELL Wireless hotkeys" (type: KEYBOARD, id 15)
+[    31.866]  Information:  event8  - DELL Wireless hotkeys: is tagged by udev as: Keyboard
+[    31.866]  Information:  event8  - DELL Wireless hotkeys: device is a keyboard
+[   510.671]  Information:  AMDGPU(0): EDID vendor "BOE", prod id 1705
+[   510.671]  Information:  AMDGPU(0): Printing DDC gathered Modelines:
+[   510.671]  Information:  AMDGPU(0): Modeline "1920x1080"x0.0  152.60  1920 1968 2000 2192  1080 1083 1089 1160 +hsync -vsync (69.6 kHz eP)
+[   516.969]  Information:  AMDGPU(0): EDID vendor "BOE", prod id 1705
+[   516.969]  Information:  AMDGPU(0): Printing DDC gathered Modelines:
+[   516.969]  Information:  AMDGPU(0): Modeline "1920x1080"x0.0  152.60  1920 1968 2000 2192  1080 1083 1089 1160 +hsync -vsync (69.6 kHz eP)
