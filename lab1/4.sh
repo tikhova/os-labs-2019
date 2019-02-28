@@ -1,11 +1,10 @@
 #!/usr/bin/bash
-read a
-let res=$a%2
 count=0
+res=1
 while [[ $res -ne 0 ]]
 do
-    let count=count+1
     read a
     let res=$a%2
+    let count=count+1
 done
 echo $count

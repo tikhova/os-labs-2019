@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-a=0 
 if [[ $1 -lt  $2 ]]
 then
     a=$2
