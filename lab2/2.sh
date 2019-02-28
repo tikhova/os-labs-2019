@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-touch full.log
 warning="Warning: "
 information=" Information: "
 wwPattern="\[.*\][[:space:]]\(WW\)"

@@ -1,4 +1,4 @@
 #!/usr/bin/bash
-for filename in $(file /bin/* | grep ' script' | cut -d : -f 1)
-do grep -E -h -s -a "^#!" $filename | cut -d : -f 1
-done | sort | uniq -c | sort | tail -1| sed -e "s/#!//" | awk '{ print $2 }'
+for filename in $(find /bin/ -readable -type f -print 2> >(grep -v 'find' >&2))
+do grep -E -h -s -a "^#!\ *" $filename |  sed -e "s/#!\ *//" | cut -d ' ' -f 1 
+done | sort | uniq -c | sort -nk1| tail -1| awk '{ print $2 }'
