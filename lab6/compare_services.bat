@@ -1,0 +1,1 @@
+fc /A D:\YandexDisk\ITMO\year2018\os-labs-2019\lab6\services.txt D:\YandexDisk\ITMO\year2018\os-labs-2019\lab6\services_new.txt > services_diff.txt
